@@ -1,0 +1,27 @@
+/* Base styles for the white circle */
+.white-circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-right: -220px;
+    cursor: pointer;
+}
+
+/* Media query for tablets and larger screens */
+@media (max-width: 768px) and (min-width: 577px) {
+    .white-circle {
+        width: 330px;
+        height: 350px;
+        margin-right: -100px;
+    }
+}
+
+/* Media query for mobile screens (applies different styles) */
+@media (max-width: 576px) {
+    .white-circle {
+        width: 300px;
+        height: 300px;
+        margin-right: -150px;
+    }
+}
